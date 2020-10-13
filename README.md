@@ -4,7 +4,6 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport"content="width=device-width,initial-scale=1.0">
-    <title>Document</title>
 </head>
 <body>
     通信1902   201916130202   孔美鑫
