@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+        
+            margin: 0;
+            font-family:inherit ;
+        }
+        nav{
+            width: 100%;
+            height: 64px;
+            position: fixed;
+            top: 0;
+            background-color: rgba(117, 112, 112, 0.205);
+            z-index: 1000;
+        }
+    
+        nav div{
+            width: 1000px;
+            height: 64px;
+            margin:0 auto;
+        }
+        ul{
+            float: right;
+            margin: 0;
+            padding-left: 0;
+        }
+        li{
+            float: left;
+            list-style: none;
+            margin-right: 30px;
+        }
+        li a{
+            line-height: 64px;
+            text-decoration: none;
+            color: black;
+        }
+        li a:hover{
+            color:gray;
+        }
+        #header{
+            width: 100%;
+            height: 30%;
+        }
+        main {
+            width: 1000px;
+            margin:0 auto;
+        }
+        section > img {
+            width: 300px;
+        }
+        p {
+            color: rgb(13, 54, 238);
+            text-indent: 2em;
+        }
+        h2 {
+            color: rgb(71, 165, 42);
+        }
+        #picture {
+            width: 1000px;
+            height: 1000px;
+            background-color: rgb(55, 165, 199);
+
+        }
+        #picture img {
+            width: 200px;
+            height: 250px;
+            
+        }
+        #myself {
+            width: 1000px;
+            height: 200px;
+            position: relative;
+        }
+        #myself img{
+            border:2px rgb(185, 132, 132) solid;
+            border-radius: 50%;
+            position: absolute ;
+            background-color: palevioletred;
+        }
+    </style>
+
+</head>
+<body>
+    <ul>
+        <li><a href="#header">首页</a></li>
+        <li><a href="#picture">我的照片</a></li>
+        <li><a href="#myself">关于我自己</a></li>
+    </ul>
+</div>
+</nav>
+<img id="header" src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1606755543761&di=3f8d022b7f2d6532ab7b6466c27d04c9&imgtype=0&src=http%3A%2F%2Fimg1.imgtn.bdimg.com%2Fit%2Fu%3D3794383721%2C94550437%26fm%3D214%26gp%3D0.jpg" alt="悟空传">
+<main>
+
+<p>“天地何用?不能席被，风月何用?不能饮食。纤尘何用?万物其中，变化何用?道法自成。面壁何用?不见滔滔，棒喝何用?一头大包。生我何用?不能欢笑，灭我何用，不减狂骄。从何而来?
+    同生世上，齐乐而歌，行遍大道。万里千里，总找不到，不如与我，相逢一笑。芒鞋斗笠千年走，万古长空一朝游，踏歌而行者，物我两忘间。嗨!嗨!嗨!自在逍遥……”</p>
+    <a href="https://baike.baidu.com/item/悟空传">悟空传</a>
+
+<section id="照片">
+    <h2>生活馆</h2>
+    <div id="picture"> 
+    <p>漫画女</p>
+   <marquee behavior="alternate" direction=""><img src="1.jpg" alt=""></marquee>
+   <p>老照片</p>
+   <marquee behavior="alternate" direction=""><img src="2.jpg" alt=""></marquee>
+   <p>复古DV</p>
+   <marquee behavior="alternate" direction=""><img src="3.jpg" alt=""></marquee>
+<p>我就是不一样的我，独一无二的花朵，朵朵花开不是为了结果，只为绽放过</p>
+ <p>我就是不一样的我，独一无二的云朵，朵朵飘在天空追寻着七色</p>
+</div>
+</section>
+
+<section id="myself">
+    <h2>关于我自己</h2>
+    <div id="myself">
+    <p>性格内向随和，倔强执着。</p>
+    <p>爱好听歌，看漫画，养宠物，拍风景照，喜欢星空大海，蓝天白云。</p>
+</div>
+</section>
+
+</main>
+<hr>
+<p id="myself" style="text-align: center;">孔美鑫 201916130202</p>
+
+</body>
+</html>
